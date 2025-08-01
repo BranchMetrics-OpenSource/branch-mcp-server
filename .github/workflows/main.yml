@@ -1,4 +1,7 @@
 name: Release and Publish
+permissions:
+  contents: read
+  pull-requests: write
 
 on:
   push:
